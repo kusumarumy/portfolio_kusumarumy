@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahyu Cahyaningrum Kusumawati</title>
+    <!-- CSS Internal/Self -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="theme-combined">
+
+    <header>
+        <div class="container">
+            <nav>
+                <div style="font-weight: 800; font-size: 1.25rem;">WCK.</div>
+                <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+                    <svg viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+                </button>
+                <div class="nav-links" id="nav-links">
+                    <a href="#about" data-i18n="nav.about">Tentang</a>
+                    <a href="#portfolio" data-i18n="nav.portfolio">Portofolio</a>
+                    <button class="lang-btn" id="lang-toggle">EN</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content fade-in">
+                <span class="greeting" data-i18n="hero.greeting">Halo, saya</span>
+                <h1 data-i18n="hero.name">Wahyu Cahyaningrum Kusumawati</h1>
+                <p class="tagline" data-i18n="hero.tagline"></p>
+                
+                <div class="role-selector">
+                    <button class="role-btn active" data-role="combined" data-i18n="hero.roles.combined">Gabungan</button>
+                    <button class="role-btn" data-role="data" data-i18n="hero.roles.data">Data Analyst</button>
+                    <button class="role-btn" data-role="gis" data-i18n="hero.roles.gis">GIS & WebGIS</button>
+                </div>
+
+                <div class="stats-grid" id="stats-grid">
+                    <!-- Stats di-render via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container">
+                <h2 data-i18n="about.title">Tentang Saya</h2>
+                <div class="about-content slide-up">
+                    <p data-i18n="about.description"></p>
+                    <div style="margin-top: 2rem;">
+                        <h3 data-i18n="about.skills_title">Kompetensi Inti</h3>
+                        <div class="skills-grid" id="skills-grid">
+                            <!-- Skills di-render via JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" style="background-color: var(--bg-card);">
+            <div class="container">
+                <h2 data-i18n="nav.portfolio">Portofolio</h2>
+                <div class="portfolio-grid" id="portfolio-grid">
+                    <!-- Portfolio cards di-render via JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background-color: var(--bg-dark); color: #94a3b8; text-align: center; padding: 2rem 0;">
+        <div class="container">
+            <p data-i18n="footer.text"></p>
+        </div>
+    </footer>
+
+    <!-- Modal Element -->
+    <div class="modal" id="project-modal" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Tutup">X</button>
+            <div id="modal-dynamic-content">
+                <!-- Konten modal disisipkan JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts dipanggil dengan atribut defer -->
+    <script src="assets/js/data.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+</body>
+</html>

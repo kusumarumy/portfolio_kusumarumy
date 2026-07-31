@@ -27,7 +27,7 @@ window.SITE = {
       id: "Data Analyst • Geospatial Analyst • GIS & WebGIS Specialist • Data Governance",
       en: "Data Analyst • Geospatial Analyst • GIS & WebGIS Specialist • Data Governance"
 },
-    location: { id: "Klaten, Jawa Tengah, Indonesia", en: "Klaten, Central Java, Indonesia" },
+    location: { id: "Cibinong, Bogor, Indonesia", en: "Cibinong, Bogor, Indonesiaa" },
     email: "wahyucahyaningrumkusumawati@gmail.com",
     phone: "+62 858-4811-0918",
     linkedin: "https://www.linkedin.com/in/wahyu-cahyaningrum-kusumawati/",

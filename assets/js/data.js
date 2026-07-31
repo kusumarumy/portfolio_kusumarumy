@@ -62,9 +62,15 @@ en:"Geodetic Engineering graduate from Universitas Gadjah Mada experienced in Da
 
   /* --------------------------------------------------------- CV (unduhan) --- */
   cv: {
-    id: { file: "assets/cv/CV_Wahyu_Cahyaningrum_ID.pdf", label: { id: "CV — Bahasa Indonesia", en: "CV — Indonesian" } },
-    en: { file: "assets/cv/CV_Wahyu_Cahyaningrum_EN.pdf", label: { id: "CV — English", en: "CV — English" } }
+  id: {
+    file: "assets/cv/ind.pdf",
+    label: { id: "CV — Bahasa Indonesia", en: "CV — Indonesian" }
   },
+  en: {
+    file: "assets/cv/ing.pdf",
+    label: { id: "CV — English", en: "CV — English" }
+  }
+},
 /* ------------------------------------------------------------- STATISTICS --- */
 stats: {
   eyebrow: {

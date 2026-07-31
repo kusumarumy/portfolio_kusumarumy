@@ -67,7 +67,7 @@ en:"Geodetic Engineering graduate from Universitas Gadjah Mada experienced in Da
     label: { id: "CV — Bahasa Indonesia", en: "CV — Indonesian" }
   },
   en: {
-    file: "assets/cv/ing.pdf",
+    file: "https://drive.google.com/uc?export=download&id=10LfDmSjpPy00LDI9vbwuqG6qEqlr8Dss",
     label: { id: "CV — English", en: "CV — English" }
   }
 },

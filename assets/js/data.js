@@ -60,17 +60,6 @@ en:"Geodetic Engineering graduate from Universitas Gadjah Mada experienced in Da
     lastUpdated: "2026-07"
   },
 
-  /* --------------------------------------------------------- CV (unduhan) --- */
-  cv: {
-  id: {
-    file: "https://drive.google.com/file/d/1PpYp9Y0blOaoBQ1Ez6yq_iknNHY2Cp90/view?usp=sharing",
-    label: { id: "CV — Bahasa Indonesia", en: "CV — Indonesian" }
-  },
-  en: {
-    file: "https://drive.google.com/file/d/10LfDmSjpPy00LDI9vbwuqG6qEqlr8Dss/view?usp=sharing",
-    label: { id: "CV — English", en: "CV — English" }
-  }
-},
 /* ------------------------------------------------------------- STATISTICS --- */
 stats: {
   eyebrow: {

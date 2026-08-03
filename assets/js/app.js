@@ -160,9 +160,6 @@
       row(lang === "id" ? "Periode" : "Period", e.period) +
       row("GPA", e.gpa) +
       row(lang === "id" ? "Skripsi" : "Thesis", tv(e.thesis));
-    // CV
-    el("cv-id").href = S.cv.id.file; el("cv-id").querySelector("span").textContent = tv(S.cv.id.label);
-    el("cv-en").href = S.cv.en.file; el("cv-en").querySelector("span").textContent = tv(S.cv.en.label);
   }
 
   function renderSkills() {
